@@ -94,8 +94,8 @@ h3 {font-size: var(--fs-h3);}
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
-    padding: .25em 0.35em;
-    text-align: right;
+    padding: .25em 1em;
+    
 }
 
 /* Header */
@@ -143,10 +143,36 @@ nav {
         grid-row: 2;
         text-align: right;
         position: relative;
-        left: 1.5em;
+        left: -1.5em;
         width: calc(100% + 1.5em);
     }
 
 }
 
 /* Services section */
+
+.my-services {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    background-image: url(../img/service-bg.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+.section__title--services {
+    color: var(--clr-accent);
+    position: relative;
+}
+
+.section__title--services::after {
+    content: '';
+    display: block;
+    width: 3em;
+    width: 25%;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.5;
+}
+
