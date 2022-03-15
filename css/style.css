@@ -94,7 +94,8 @@ h3 {font-size: var(--fs-h3);}
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
-    padding: .25em 1em;
+    padding: .25em 0.35em;
+    text-align: right;
 }
 
 /* Header */
@@ -147,3 +148,5 @@ nav {
     }
 
 }
+
+/* Services section */
